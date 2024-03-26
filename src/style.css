@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  margin-top: -320px;
 }
 
 h1 {
@@ -63,6 +64,96 @@ h1 {
   color: #888;
 }
 
+.header{
+  width: 620px;
+  height: 310px;
+  position: fixed;
+  z-index: 1000;
+	background-color: #1a1a1a;
+	background-repeat: inherit;
+	background-position: left top;
+	background-attachment: fixed;
+  border: 1px solid #ccc;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+  top: 0;
+  left: 0;
+}
+
+.tabs {
+  background-color: #222225;
+  
+  display: flex;
+  margin-bottom: 0px;
+  margin-top: -25px;
+  border: none;
+  padding: 15px 25px;
+  justify-content: center;
+  
+}
+
+.tab-link {
+  background-color: #f2f2f2;
+  border: solid;
+  border-radius: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  
+}
+
+.tab-link.active {
+  background-color: #ccc;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #1a1a1a;
+  
+  
+  box-sizing: border-box;
+}
+
+.tab-content-container{
+  margin-top: 600px;
+  
+  position: relative;
+  margin-left: 150px;
+  max-height: 200px;
+  top: 0;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: calc(100vh - 50px);
+}
+.tab-content::before {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #ccc;
+  margin-bottom: -1px;
+}
+
+.alternate1 {
+  background-color: #9BE58C;
+  border-color: #80C55A;
+  border-style: solid;
+  border-radius: 5px;
+  width: auto;
+}
+
+.alternate2 {
+  border-color: #d9d9d9;
+  border-style: solid;
+  border-radius: 5px;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -84,11 +175,11 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #20639e;
+    background-color: #141531;
   }
   a:hover {
-    color: #747bff;
+    color: #070c6b;
   }
   button {
     background-color: #f9f9f9;
