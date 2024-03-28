@@ -1,7 +1,7 @@
 import './style.css'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
+  <div class="wrapper">
     <div class="header">
       
       <h1>Wichapas Pichetpongsa</h1>
