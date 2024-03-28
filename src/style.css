@@ -98,20 +98,19 @@ h1 {
 }
 
 .tab-content {
-  display: none;
-  padding: 20px;
   border: 1px solid #ccc;
   background-color: #1a1a1a;
-  box-sizing: border-box;
+  
 }
 
 .tab-content-container{  
+ /*
   position: absolute;
 
   left: 25%;
   width: 50%;
   
-  
+  */
 }
 
 
@@ -120,7 +119,6 @@ h1 {
   border-color: #80C55A;
   border-style: solid;
   border-radius: 5px;
-  width: auto;
 }
 
 .alternate2 {
