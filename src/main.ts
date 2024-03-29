@@ -25,7 +25,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <div id="tab1" class="tab-content" style="display: block;">
           <h1>Hello and welcome to my portfolio!</h1>
           <p>I'm a senior at University of Santa Cruz studying computer science game design. 
-          Throughout the years, I have worked on a wide varity of games. One of my proudest work is my capstone project, which is a WebGL build targeted for the mobile platform!
+          Throughout the years, I have worked on a wide varity of games. One of my proudest work is my capstone project, which is a WebGL build targeted for the mobile platform! <br>
           In that project, I focused on designing the game. My roles in the project were design and playtest lead. I also fill in any programming work when the production lead requires my assistance.
           <br>
           <br>
@@ -33,15 +33,12 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
           <a href="img/Harry_Resume_2024.pdf" download>
             <p>Download Here!</p>
           </a>
-          <img src="img/resume_img.jpg" width="250" height="480">
+          <img src="img/resume_img.jpg" width="240" height="320">
         </div>
 
         <div id="tab2" class="tab-content">
             <h1>Projects</h1>
-            <p>'m a senior at University<br>
-              of Santa Cruz studying<br>
-              computer science game design<br>. 
-            Throughout the years, <br>I have worked on a wide varity of <br>games. One of my proudest work is my capstone project, which is a WebGL build targeted for the mobile platform!
+           
         </div>
         
         <div id="tab3" class="tab-content" >

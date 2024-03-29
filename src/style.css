@@ -69,14 +69,12 @@ h1 {
 
 	background-color: #1a1a1a;
 	background-attachment: fixed;
-  
+  width:auto;
   border: 1px solid #ccc;
 }
 
 .tabs {
   background-color: #222225;
-  left: 0;
-  
   border: 1px solid #ccc;
   padding: 15px 25px;
 }
@@ -100,7 +98,7 @@ h1 {
 .tab-content {
   border: 1px solid #ccc;
   background-color: #1a1a1a;
-  
+  width: auto;
 }
 
 .tab-content-container{  
@@ -128,20 +126,23 @@ h1 {
 }
 
 .text-color{
-  text-align: left;
+  text-align: center;
+  font-size: 24px;
   color: #2ad346;
 }
 
 .body-text{
-  text-align: left;
+  text-align: center;
+  
 }
 
 .wrapper{
   position: absolute;
-  width: 100%;
+  margin: auto;
+  width: 50%;
   height: auto;
   top: 0;
-  left: 0;
+  left: 25%;
 }
 
 button {
