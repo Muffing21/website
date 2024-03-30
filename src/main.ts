@@ -63,7 +63,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             </div>  
             <div class="abouttxt">
               <p><b>Overview:</b></p>
-              <p>This is a 2D roguelite shoot ‘em up type of game. In this game, you play as drones that shoot at big mutant bugs and earn treasures as you progress through the game. After earning some currency, you can spend them to acquire better equipments such as new drones and weapons. There are several paths to choose from, which will lead to the final boss according to the map you chose. For greater accessibility, the options provided allow the player to play in colorblind mode or play the game in another language.</p>
+              <p>This is a 2D roguelite shoot em up type of game. In this game, you play as drones that shoot at big mutant bugs and earn treasures as you progress through the game. After earning some currency, you can spend them to acquire better equipments such as new drones and weapons. There are several paths to choose from, which will lead to the final boss according to the map you chose. For greater accessibility, the options provided allow the player to play in colorblind mode or play the game in another language.</p>
       
               <p><b>Engine</b>: Unity2d</p>
               <p><b>Targeted Platform</b>: Mobile (WebGL build)</p>
