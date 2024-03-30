@@ -62,7 +62,19 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
               </div>
             </div>  
             <div class="abouttxt">
-              <h3>Overview</h3>
+              <p><b>Overview:</b></p>
+              <p>This is a 2D roguelite shoot ‘em up type of game. In this game, you play as drones that shoot at big mutant bugs and earn treasures as you progress through the game. After earning some currency, you can spend them to acquire better equipments such as new drones and weapons. There are several paths to choose from, which will lead to the final boss according to the map you chose. For greater accessibility, the options provided allow the player to play in colorblind mode or play the game in another language.</p>
+      
+              <p><b>Engine</b>: Unity2d</p>
+              <p><b>Targeted Platform</b>: Mobile (WebGL build)</p>
+              <p><b>Language</b>: C#</p>
+              <p><b>Duration</b>: 3 months</p>
+              <p><b>Completion</b>: Vertical Slice</p>
+              <p><b>Team Size</b>: 3</p>
+              <p><b>Role</b>: Design + Playtest Lead</p>
+              <p><b>Contribution Highlights</b>: Scene flow, splash experience, player combat abilities programming, UI/UX</p>
+              <p><b>Game Archive + Playable Build</b>: <a href="https://sirapatp257.github.io/RaptoroidsArchive/">Visit the official game site here!</a></p>
+
             </div>
           </div>
         </div>
@@ -80,8 +92,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
               <h2 style="color: #2ad346">Hello! I'm Wichapas Pichetpongsa.</h2>
               <h3>You can call me Harry, my real name is kind of difficult to pronounce!</h3>
               <p>I'm a senior at University of California Santa Cruz studying Computer Science: Computer Game Design. My passion for games started from the good old days of Playstation 1. My first game on it was Yu-Gi-Oh! Forbidden Memories and it's a game that confuses me till today. I'm passionate about game design/programming because I can combine the technical and creative aspects into a product.
-                <br><br>Some of my favourite games: Dota 2, CSGO, Warframe, Yu-Gi-Oh Master Duel.
-                <br><br>Hobbies when not working or gaming: Golf, Table Tennis, Gym, making youtube videos.
+                <br><br><b>Some of my favourite games</b>: Dota 2, CSGO, Warframe, Yu-Gi-Oh Master Duel.
+                <br><br><b>Hobbies when not working or gaming</b>: Golf, Table Tennis, Gym, making youtube videos.
+                <br><br>If you're interested about me, please reach out!
+                <br><br><b>Email</b>: harryex3@gmail.com
               </p>
             </div>
           </div>
