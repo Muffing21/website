@@ -67,14 +67,14 @@ h1 {
 
 .header{
 
-	background-color: #1a1a1a;
+	background-color: #c9c1c1;
 	background-attachment: fixed;
   width:auto;
   border: 1px solid #ccc;
 }
 
 .tabs {
-  background-color: #222225;
+  background-color: #7c7c7e;
   border: 1px solid #ccc;
   padding: 15px 25px;
 }
@@ -97,10 +97,16 @@ h1 {
 
 .tab-content {
   border: 1px solid #ccc;
-  background-color: #1a1a1a;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #fafafa;
   width: auto;
+  text-align: left;
 }
 
+.title {
+  text-align: center;
+}
 .tab-content-container{  
  /*
   position: absolute;
@@ -113,9 +119,9 @@ h1 {
 
 
 .alternate1 {
-  background-color: #9BE58C;
-  border-color: #80C55A;
-  border-style: solid;
+  background-color: #b1afaf;
+  text-align: center;
+  border-style: ridge;
   border-radius: 5px;
 }
 
@@ -126,7 +132,7 @@ h1 {
 }
 
 .text-color{
-  text-align: center;
+  
   font-size: 24px;
   color: #2ad346;
 }
@@ -143,6 +149,24 @@ h1 {
   height: auto;
   top: 0;
   left: 25%;
+}
+
+.name {
+  color: #000000;
+}
+
+.aboutimg {
+  height: auto;
+  margin-right: 20px;
+}
+
+.aboutcontainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.abouttxt {
+  flex: 1;
 }
 
 button {
@@ -166,8 +190,8 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #20639e;
-    background-color: #141531;
+    color: #000000;
+    background-color: #5184bea8;
   }
   a:hover {
     color: #070c6b;
