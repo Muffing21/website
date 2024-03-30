@@ -42,10 +42,30 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <div id="tab2" class="tab-content">
           <div class="title">  
             <h1><u>Projects</u></h1>
-            <h2>Raptoroids</h2>
           </div> 
+          <div class="title2left">
+            <h2><u>Raptoroids</u></h2>
+          </div>
+          
+          <div class="aboutcontainer">
+            <div class="aboutimg">
+              <div class="slideshow-container">
+                <div class="slide fade">
+                  <img src="img/raptoroid1.jpg" alt="Slide 1">
+                </div>
+                <div class="slide fade">
+                  <img src="img/raptoroid2.jpg" alt="Slide 2">
+                </div>
+                <div class="slide fade">
+                  <img src="img/raptoroid3.jpg" alt="Slide 3">
+                </div>  
+              </div>
+            </div>  
+            <div class="abouttxt">
+              <h3>Overview</h3>
+            </div>
+          </div>
         </div>
-        
         <div id="tab3" class="tab-content" >
             
           <div class ="title">
@@ -75,15 +95,13 @@ document.addEventListener("DOMContentLoaded", function () {
   // Get all tab links
   const tabLinks = document.querySelectorAll(".tab-link");
 
-  // Add click event listeners to each tab link
+
   tabLinks.forEach((tabLink) => {
       tabLink.addEventListener("click", () => {
-          // Remove 'active' class from all tab links
           tabLinks.forEach((link) => {
               link.classList.remove("active");
           });
 
-          // Add 'active' class to the clicked tab link
           tabLink.classList.add("active");
 
           // Hide all tab content
@@ -92,7 +110,6 @@ document.addEventListener("DOMContentLoaded", function () {
               (content as HTMLElement).style.display = "none";
           });
 
-          // Show the corresponding tab content for the clicked link
           const targetTabId = tabLink.getAttribute("data-tab-id");
           if(targetTabId){
             const targetTabContent = document.getElementById(targetTabId);
@@ -104,4 +121,19 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   });
 });
+
+let slideIndex = 0;
+let imgTransitionSpeed: number = 5000;
+showSlides();
+
+function showSlides() {
+  let slides = document.getElementsByClassName("slide") as HTMLCollectionOf<HTMLElement>;
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, imgTransitionSpeed); // Change image every 2 seconds
+}
 

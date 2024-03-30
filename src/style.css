@@ -107,16 +107,10 @@ h1 {
 .title {
   text-align: center;
 }
-.tab-content-container{  
- /*
-  position: absolute;
 
-  left: 25%;
-  width: 50%;
-  
-  */
+.title2left{
+  text-align: left;
 }
-
 
 .alternate1 {
   background-color: #b1afaf;
@@ -169,6 +163,20 @@ h1 {
   flex: 1;
 }
 
+.slideshow-container {
+  position: relative;
+  max-width: 1000px; /* Adjust as needed */
+  margin: auto;
+}
+
+.slide {
+  display: none;
+}
+
+.fade {
+  animation: fade 5s ease-in-out infinite;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -199,4 +207,11 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+@keyframes fade {
+  0% { opacity: 0; }
+  25% { opacity: 1; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
 }
