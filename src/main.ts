@@ -91,7 +91,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <div class="abouttxt">
               <h2 style="color: #2ad346">Hello! I'm Wichapas Pichetpongsa.</h2>
               <h3>You can call me Harry, my real name is kind of difficult to pronounce!</h3>
-              <p>My passion for games started from the good old days of Playstation 1. My first game on it was Yu-Gi-Oh! Forbidden Memories and it's a game that confuses me till today. I'm passionate about game design/programming because I can combine the technical and creative aspects into a product.
+              <p>My interest in games started from the good old days of Playstation 1. My first game on it was Yu-Gi-Oh! Forbidden Memories and it's a game that confuses me till today. I'm Interested in game design/programming because I can combine the technical and creative aspects into a product.
                 <br><br><b>Some of my favourite games</b>: Dota 2, CSGO, Warframe, Yu-Gi-Oh Master Duel.
                 <br><br><b>Hobbies when not working or gaming</b>: Golf, Table Tennis, Gym, making youtube videos.
                 <br><br>If you're interested about me, please reach out!
