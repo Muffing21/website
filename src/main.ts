@@ -29,7 +29,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
           Throughout the years, I have worked on a wide varity of games. One of my proudest work is my capstone project, which is an IOS build targeted for the mobile platform! 
           In that project, I focused on programming/designing the game. I'm also the assistance guy who fills in any programming/art work when the production lead requires my help.
           <br>
+          <br>
           One of my biggest achievement in actual work experience is my internship at Deloitte! I did Python programming under the Risk Advisory team. It was an eye opening experience as my team helped me grow out of my comfort zone. I worked on data cleaning and feature engineering to produce a model for our client. 
+          <br>
           <br>
           Here is a link to view my resume! (for more details about projects please stay on this site)
           <div class="title">
