@@ -194,7 +194,7 @@ const projectSection1 = generateProjectText({
   platform: "mobile (IOS)",
   language: "C#",
   duration: "7 months",
-  completion: "full production",
+  completion: "Released",
   teamSize: "6",
   role: "programmer + art",
   highlights: "gameplay programming, 2 bosses, Thai localization",
@@ -203,7 +203,7 @@ const projectSection1 = generateProjectText({
 });
 
 const projectSection2 = generateProjectText({
-  overview: "This is a soon to be game project that I'm still currently prototyping. It will be a game inspired by my favourite game called Dota 2. Since Dota 2 is a highly competitive MOBA, my goal is to combine 2D platforming with Dota for a more story driven feel. No one will do it? Fine, I will do it myself!",
+  overview: "This is a soon to be game project that I'm still currently prototyping. It will be a game inspired by my favourite game called Dota 2. Since Dota 2 is a highly competitive MOBA, my goal is to combine Tower Defense with Dota for a more story driven/casual feel.",
   engine: "Unity",
   platform: "PC",
   language: "C#",
